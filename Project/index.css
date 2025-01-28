@@ -1,0 +1,159 @@
+/* Общие стили */
+.rubik-uniquifier {
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: "Rubik", Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #252626;
+}
+
+.logo {
+    width: 40px;
+}
+
+.nav-menu a {
+    font-weight: 500;
+}
+
+.nav-menu {
+    display: inline;
+}
+
+/* Верхняя панель */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: #2B8A80;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.header .nav-menu a {
+    color: #2B8A80;
+    margin: 0 10px;
+    position: relative;
+    right: 30px;
+    margin-inline: 20px;
+    text-decoration: none;
+}
+
+.border {
+    position: relative;
+    background-color: #2d5e59;
+    height: 70px;
+    width: 100%;
+}
+
+.border_1 {
+    position: absolute;
+    top: 375px;
+    background-color: #2d5e59;
+    height: 10px;
+    width: 100%;
+}
+
+/* Центральный баннер */
+.banner {
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    color: #bcd8d6;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: #2d5e59;
+    padding: 40px;
+    border-radius: 10px;
+    border-color: #2d5e59;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.banner button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #2B8A80;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 35%;
+    font-weight: 600;
+}
+
+.buttons {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #2B8A80;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    font-weight: 600;
+}
+
+.banner h1 {
+    font-weight: 500;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.banner p {
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Преимущества курса */
+.advantages {
+    margin-top: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.advantages .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.advantages h2 {
+    color: #a4cbc8;
+    font-weight: 500;
+}
+
+.advantages .card {
+    background: linear-gradient(150deg, #2f635e 60%, #26514d 60% 100%);
+    padding: 20px;
+    width: 300px;
+    color: #bcd8d6;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-inline: 20px;
+}
+
+/* Фиксированная кнопка */
+.register-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2B8A80;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
