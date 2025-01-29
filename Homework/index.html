@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script src="./scripts/button.js"></script>
+    <script src="./scripts/ex1.js"></script>
+    <script src="./scripts/ex2.js"></script>
+    <script src="./scripts/ex3.js"></script>
+    <script src="./scripts/ex4.js"></script>
+    <script src="./scripts/ex5.js"></script>
+    <script src="./scripts/ex6.js"></script>
+    <script src="./scripts/ex7.js"></script>
+    <script src="./scripts/ex8.js"></script>
+    <script src="./scripts/ex9.js"></script>
+    <script src="./scripts/ex10.js"></script>
+</head>
+<body id="body">
+    <div id="fade_text" class="hello_text"><div id="fade_text1" class="fade_text"><h2 id="text-1">Приветствую...</h2><p id="text-2">Это моё домашнее задание. Для дальнейших действий нажимайте кнопку снизу</p><p id="text-3">После каждого нажатия на кнопку будет выполнено одно задание</p><button id="butt" class="ages disabled-hide" onclick="exe1()" ondblclick="">Нажми</button><input type="text" class="type nv" placeholder="Да/Нет" id="type-text"><button id="confirm" class="confirm nv" onclick="exe5()">Подтвердить</button></div></div>
+    <script>
+        var ex = 0;
+        window.onload = function()
+{
+    const fade = document.getElementById('fade_text');
+    fade.classList.add('v');
+    const fade1 = document.getElementById('button_div');
+    fade1.classList.add('v');
+}
+    </script>
+
+    <div id="button_div" class="button_div">
+        <button onclick="next_ex()" id="button-1" class="button-1">Далее</button>
+    </div>
+</body>
+</html>
