@@ -1,0 +1,159 @@
+body {
+    background-image: url('./images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: "Tiny5", Arial, sans-serif;
+    color: #4fb7c5;
+    opacity: 0;
+    transition: opacity 2s ease-in-out
+}
+
+.ex_list_field {
+    display: flexbox;
+    align-items: center;
+    position: relative;
+    left: 35%;
+    background-image: url(images/text_field.png);
+    width: 306px;
+    height: 450px;
+    text-align: left;
+    font-size: 24px;
+    transform: translate(-50%, 4.75%);
+}
+
+.v {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+.ex_list {
+    position: relative;
+    top: 20px;
+    margin-inline: 25px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.ex_list:hover {
+    scale: 1.02;
+    transition: scale,color 200ms ease-in-out;
+    color: #217985
+}
+
+.energy_bar {
+    display: flexbox;
+    align-items: center;
+    position: absolute;
+    left: 50%; bottom: 85%;
+    transform: translate(17%, 50%);
+}
+
+.energy_bar_info {
+    display: flexbox;
+    align-items: center;
+    position: absolute;
+    left: 58%; bottom: 85.5%;
+    transform: translate(17%, 50%);
+    font-size: 24px;
+}
+
+.energy_bar_size {
+    display: flexbox;
+    position: absolute;
+    left: 58.6%; bottom: 82.75%;
+    font-size: 24px;
+    background-image: url('./images/bar.png');
+    width: 92px;
+    height: 19px;
+    transition: width 500ms ease-in-out;
+}
+
+.skill_bar {
+    display: flexbox;
+    align-items: center;
+    position: absolute;
+    left: 50%; bottom: 67%;
+    transform: translate(17%, 50%);
+}
+
+.skill_bar_info {
+    display: flexbox;
+    align-items: center;
+    position: absolute;
+    left: 58%; bottom: 66.3%;
+    transform: translate(17%, 50%);
+    font-size: 24px;
+}
+
+.skill_bar_size {
+    display: flexbox;
+    position: absolute;
+    left: 58.6%; bottom: 63.6%;
+    font-size: 24px;
+    background-image: url('./images/bar.png');
+    width: 92px;
+    height: 19px;
+    transition: width 500ms ease-in-out;
+}
+
+.kitty {
+    display: flexbox;
+    align-items: center;
+    position: absolute;
+    left: 53%; bottom: 44.5%;
+    width: 220px;
+    transform: translate(17%, 50%);
+}
+
+.kitty:hover {
+    content: url('./images/Shy_Kitty.gif')
+}
+
+.add_ex_field {
+    display: flexbox;
+    align-items: center;
+    position: absolute;
+    left: 50%; bottom: 19.4%;
+    transform: translate(17%, 50%);
+    background-image: url('./images/add_ex_field.png');
+    background-color: rgba(1, 1, 1, 0);
+    width: 261px; height: 56px;
+    border: none;
+    outline: none;
+    font-family: "Tiny5", Arial, sans-serif;
+    color: #4fb7c5;
+    font-size: 23px;
+    line-height: 1;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+
+.add_ex {
+    display: flexbox;
+    align-items: center;
+    position: absolute;
+    left: 70%; bottom: 21%;
+    transform: translate(17%, 50%);
+    cursor: pointer;
+}
+
+.add_ex:hover {
+    content: url('./images/add_ex_active.png')
+}
+
+.add_ex:active {
+    position: absolute;
+    left: 70%; bottom: 21%;
+    transform: translate(17%, 50%) scale(0.95);
+}
+
+.tiny5-regular {
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 0;
+    transform: translate(-50%, 0%);
+}  
